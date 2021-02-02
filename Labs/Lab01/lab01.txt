@@ -1,0 +1,29 @@
+Tung Tran
+CSCI206
+Lab01
+2/7/2021
+
+1. One line mkdir command, making parent directories if needed: 
+mkdir ~/CSCI206-S21-62/Labs/Lab01
+
+2. One sentence description of each of the following commands: 
+ls - List directory contents
+pwd - Print current working directory name
+cp - Copy files and directories
+mv - Move (rename) files
+rm - Remove files or directories
+mkdir - Make directories
+rmdir - Remove empty directories
+touch - Change file timestamps
+cat - Concatenate files and print on the standard output
+more - Viewing files one screen at a time
+less - Like more but able to scroll backwards 
+head - Output the first part of files
+tail - Output the last part of files
+
+3. The command to start emacs without a GUI is: emacs -nw [filename]  
+4. The command to show line numbers in vim: :set number 
+5. The command to show line numbers in emacs: M-x linum-mode
+6. After careful consideration, I will use <vim> in csci206 as my text editor.
+
+
