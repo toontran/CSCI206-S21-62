@@ -1,0 +1,15 @@
+# https://codicious.wordpress.com/2018/06/06/how-would-you-exclude-all-extension-less-executable-from-your-repo/
+
+# ignore everything
+*
+
+# except these
+!*.*
+!*/
+!empty
+!Makefile
+!makefile
+
+# reignore these
+*.o
+a.out
