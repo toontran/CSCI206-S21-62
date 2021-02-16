@@ -13,10 +13,21 @@ Again, with the exact same conditions of gdb as above, what is the syntax of the
 
 Exercise 2: RISC-V Registers
 ra
+x1, return address for jumps
+
 sp
+x2, stack pointer
+
 Registers to hold parameters and return values for functions/procedures
-Registers to hold temporary values that are not preserved across different function calls
+x10, ABI Name:a0, description:return value or function argument 0
+x11, a1, return value or function argument 1
+
+Registers to hold temporary values that are not preserved across different function calls:
+x10-17, a0 to a7, argument registers, and
+x5-7, x28-31, t0 to t6, temporary registers, are not preserved across function calls
+
 Registers to hold values that are supposed to be preserved across different function calls.
+x8-9, x18-27, s0 to s11, saved registers, are preserved across function calls
 
 Exercise 3: Simple RISC-V instructions
 add s1, s2, s3
