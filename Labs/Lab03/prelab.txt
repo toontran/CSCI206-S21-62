@@ -1,4 +1,4 @@
-Ex 1:
+Exercise 1: gdb
 1. How do you compile your program so that you get extra debugging information (variable and function names, line numbers, and so on) in gdb?
 gcc -g [source].c
 
@@ -11,7 +11,14 @@ Within gdb, type "b 50"
 Again, with the exact same conditions of gdb as above, what is the syntax of the command to change the value of the integer count to 42?
 "set variable count = 42"
 
-Ex 3:
+Exercise 2: RISC-V Registers
+ra
+sp
+Registers to hold parameters and return values for functions/procedures
+Registers to hold temporary values that are not preserved across different function calls
+Registers to hold values that are supposed to be preserved across different function calls.
+
+Exercise 3: Simple RISC-V instructions
 add s1, s2, s3
  a. Adds the values contained in the two source registers; stores the result into the destination register. Effectively: s1 = s2 + s3.
  b. Source Registers: s2, s3
@@ -33,7 +40,7 @@ sub s0, t1, s2
  b. Source Registers: s2, t1
  c. Destination Register: s0
 
-Ex 4:
+Exercise 4: Working in different bases
 59 (base 10) to 8-bit binary: 59 = 32 + 16 + 8 + 2 + 1 = 00011101
 10111011 (base 2) to 8-bit hexadecimal: Is 187(10) = 187/16/16 = 0x000000BB
 129 (base 10) to 8-bit hexadecimal: 129 = 129/16/16 = 0x81
