@@ -1,0 +1,36 @@
+Ex 1:
+1. How do you compile your program so that you get extra debugging information (variable and function names, line numbers, and so on) in gdb?
+gcc -g [source].c
+
+2. What is the syntax of the command to set a breakpoint at line 50 that you would type at the gdb prompt?
+Within gdb, type "b 50"
+
+3.Assume that a) your program has an integer variable called count; b) you started the execution of the program in gdb; c) the program is stopped at a breakpoint where the variable count has been defined,  what is the syntax of the gdb command to print the value of count?
+"disp count"
+
+Again, with the exact same conditions of gdb as above, what is the syntax of the command to change the value of the integer count to 42?
+"set variable count = 42"
+
+Ex 3:
+add s1, s2, s3
+ a. Adds the values contained in the two source registers; stores the result into the destination register. Effectively: s1 = s2 + s3.
+ b. Source Registers: s2, s3
+ c. Destination Register: s1
+addi s1, s3, -2
+ a. Adds the values contained in the a source register and an immedicate value; stores the result into the destination register. Effectively: s1 = s3 + (-2).
+ b. Source registers: s3
+ c. Destination: s1
+lw t6, 4(s0)
+ a. Adds the values contained in a source registers and an immedicate value; stores the word-aligned result into the destination register. Effectively: t6 = s0 + 4.
+ b. Source Registers: s0
+ c. Destination Register: t6
+add t3, s1, s2
+ a. Adds the values contained in the two source registers; stores the result into the destination register. Effectively: t3 = s1 + s2.
+ b. Source Registers: s2, s1
+ c. Destination Register: t3
+sub s0, t1, s2
+ a. Subtracts the values contained in the two source registers; stores the result into the destination register. Effectively: s0 = t1 - s2.
+ b. Source Registers: s2, t1
+ c. Destination Register: s0
+
+
