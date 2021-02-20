@@ -19,6 +19,6 @@ int main(void)
 
     x = s;    
  
-    return 0;
+    return x;
 }
 

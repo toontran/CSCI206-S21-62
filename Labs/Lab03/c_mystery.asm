@@ -26,7 +26,7 @@ main:
 	ble	a4,a5,.L2
 	lw	a5,-20(s0)
 	sw	a5,-28(s0)
-	li	a5,0
+	lw	a5,-28(s0)
 	mv	a0,a5
 	ld	s0,24(sp)
 	addi	sp,sp,32
