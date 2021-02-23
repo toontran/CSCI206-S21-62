@@ -1,0 +1,25 @@
+(0) prelab: [25 points] Prelab reading / activities (zybook).
+	Grade:   5 / 25
+	Comments: zybook only partially complete
+
+(1) ex1: Checking if salary and isalary work.
+	Grade:  10 / 10
+	Comments: Good!
+(2) ex2: nogood compiles without warning with -Wall. -5 for each warning, -15 for an error
+	Grade:  10 / 10
+	Comments: Good!
+(3) ex3: fsalary works as expected, created Makefile
+	Grade:  10 / 10
+	Comments: Good!
+(4) ex4: nogood and nogood.o.
+	Grade:  10 / 10
+	Comments: Good!
+(5) ex5: checking primefact.py and primefact.c
+	Grade:  25 / 25
+	Comments: Good!
+(6) ex6: switchcase.c compiles without warning and operates correctly.
+	Grade:  10 / 10
+	Comments: Good!
+TOTAL:  80 /100
+
+Graded by: imc004@bucknell.edu
