@@ -1,0 +1,12 @@
+(3) setup: Create the Lab01 folder and create the 'empty' file in the right location.
+	Grade:  10 / 10
+	Comments: Good!
+(4) create_text: Create the lab01.txt file as instructed in the lab.
+	Grade:  10 / 10
+	Comments: Good!
+(5) answers: Answer the questions on the grading rubric.
+	Grade:  80 / 80
+	Comments: Good!
+TOTAL: 100 /100
+
+Graded by: imc004@bucknell.edu
