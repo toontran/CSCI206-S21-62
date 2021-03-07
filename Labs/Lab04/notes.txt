@@ -1,0 +1,14 @@
+creat:
+Similar to open; if file doesn't exist, create new, then open.
+
+open:
+Returns file descriptor of the target file, which monitors interaction with target file
+
+read:
+Read from file descriptor
+
+write:
+Write to file descriptor
+
+close:
+Close a file descriptor
