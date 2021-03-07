@@ -12,3 +12,20 @@ Write to file descriptor
 
 close:
 Close a file descriptor
+
+fopen:
+Opens file at path and associate a stream with it
+
+fgets:
+Reads at most `size-1` characters and put into buffer.
+
+fprintf:
+Writes output to given output stream
+
+fseek:
+Move file position indicator to `whence+offset` position
+
+fclose:
+Close stream
+
+
