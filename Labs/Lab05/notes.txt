@@ -1,0 +1,60 @@
+Exercise 1: Creating a memory map
+Segment     |    Start    |     End      |     Size     | Comments
+------------+-------------+--------------+--------------+--------------
+Stack       | 0x7FFF FF86 | 0x7fff ffff  | 0x7a         | main() 0x16 bytes, printf() 0x64 bytes
+            |             |              |              |
+            |             |              |              |
+------------+-------------+--------------+--------------+--------------
+            |             |              |              |
+            |             |              |              |
+Heap        | 0x0040 0508 | 0x0040 0508  | 0x0          |
+------------+-------------+--------------+--------------+--------------
+            |             |              |              |
+            |             |              |              |
+Data        |             |              |              | int squares[100]: 100 x 0x4 = 0x400
+            |             |              |              | int sum: 0x4 bytes
+            | 0x0040 0100 | 0x0040 0507  | 0x408        | int i: 0x4 bytes
+------------+-------------+--------------+--------------+--------------
+            |             |              |              |
+            |             |              |              |
+Text        | 0x0040 0000 | 0x0040 00FF  | 0x100        |
+------------+-------------+--------------+--------------+--------------
+
+
+Exercise 2: Making system calls from assembly
+1. Read an integer from the keyboard into t0
+li a7, 5
+ecall
+addi t0, a0, 0
+
+2. Print an integer in t0 to the terminal
+addi a0, t0, 0
+li a7, 1
+ecall
+
+3. Read from the keyboard a string and store it at the address corresponding to the label my_str
+li a7, 8
+la a0, my_str
+ecall
+
+4. Print to the terminal a string declared at the address corresponding to the label prompt
+li a7, 4
+la a0, prompt
+ecall
+
+5. Exit a program returning with the value -1
+li a0, -1
+li a7, 93
+ecall
+
+
+
+
+
+
+
+
+
+
+
+
