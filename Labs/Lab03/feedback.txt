@@ -1,0 +1,18 @@
+(0) prelab: 1 point each, 4 total] Exercise 1: Debugging questions answered correctly.
+[2 points each, 12 total] Exercise 2: Answers for the register groups $at, $a0-$a3, $t0-$t9, $s0-$s7, $gp, and $sp.
+[1 points each, 4 total] Exercise 3: Each instruction and its effect are described accurately.
+[1 point each, 5 total] Exercise 4: Base conversions show intermediate steps and arrive at the correct result.
+	Grade:  25 / 25
+	Comments: Good!
+(1) Exercise 1: All register numbers in mystery.asm converted to the appropriately named register.  -1 for each register not converted. Comments added to mystery.asm clearly indicate an understanding of what the program is doing (not just what each line does in isolation).
+	Grade:  35 / 35
+	Comments: Good!
+(2) Exercise 2: [20 pts] c_mystery.c was created and it implements the proper algorithm. [10 pts] using good coding conventions.
+	Grade:  30 / 30
+	Comments: Good!
+(3) Exercise 3: generated c_mystery.asm using riscv-gcc
+	Grade:  10 / 10
+	Comments: Good!
+TOTAL: 100 /100
+
+Graded by: imc004@bucknell.edu
