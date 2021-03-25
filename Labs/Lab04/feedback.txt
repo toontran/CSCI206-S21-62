@@ -20,6 +20,9 @@
 (6) Exercise 4: C File IO with the standard library: Exercise 4: head3.c created and uses read_file_lines in fileio.c/.h to read lines using the standard libraries. -5 if it does not compile or has warnings. -1 for each minor error. -2 for each significant error.
 	Grade:  10 / 10
 	Comments: Good!
-TOTAL:  78 /100
+(7) Strings and tokens: Exercise 5: string_token.c created; Visually examine the source code string_token.c. If code style is bad, -2; if the program doesn't compile, -4; if the program compiles with warning(s), -2.
+	Grade:  15 / 15
+	Comments: Good!
+TOTAL:  93 /100
 
 Graded by: imc004@bucknell.edu
