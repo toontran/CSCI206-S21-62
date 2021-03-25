@@ -1,0 +1,28 @@
+(0) prelab: zyBook activities
+	Grade:  18 / 25
+	Comments: zybook partially complete
+
+(1) Exercise 1:  Exercise 1: calc.c program works as described and follows good coding conventions. -5 if it does not compile or has warnings. -1 for each minor error. -2 for each significant error.
+	Grade:  10 / 10
+	Comments: Good!
+(2) Exercise 2 - notes: Exercise 2: notes.txt has info about creat(2), open(2), read(2), write(2), and close(2) (2 points each).
+	Grade:  10 / 10
+	Comments: Good!
+(3) Exercise 2 - head: Exercise 2: head.c program works as described and follows good coding conventions. -5 if it does not compile or has warnings. -1 for each minor error. -2 for each significant error.
+	Grade:  10 / 10
+	Comments: Good!
+(4) Exercise 3: Makefile created to compile head2.c using head2.o and fileio.o with explicit rules that depend on fileio.h. -5 points for: gcc –Wall head2.c fileio.c –o head2.
+	Grade:  10 / 10
+	Comments: Good!
+(5) Exercise 4: C File IO with the standard library (notes): Take some time to read the man pages of functions fopen(3), fgets(3), fprintf(3), fseek(3), and fclose(3) and, again,write a few sentences in your own words describing each one of them in your notes.txt file.
+	Grade:  10 / 10
+	Comments: Good!
+(6) Exercise 4: C File IO with the standard library: Exercise 4: head3.c created and uses read_file_lines in fileio.c/.h to read lines using the standard libraries. -5 if it does not compile or has warnings. -1 for each minor error. -2 for each significant error.
+	Grade:  10 / 10
+	Comments: Good!
+(7) Strings and tokens: Exercise 5: string_token.c created; Visually examine the source code string_token.c. If code style is bad, -2; if the program doesn't compile, -4; if the program compiles with warning(s), -2.
+	Grade:  15 / 15
+	Comments: Good!
+TOTAL:  93 /100
+
+Graded by: imc004@bucknell.edu
