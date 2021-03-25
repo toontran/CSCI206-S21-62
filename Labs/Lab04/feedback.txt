@@ -14,6 +14,9 @@
 (4) Exercise 3: Makefile created to compile head2.c using head2.o and fileio.o with explicit rules that depend on fileio.h. -5 points for: gcc –Wall head2.c fileio.c –o head2.
 	Grade:  10 / 10
 	Comments: Good!
-TOTAL:  58 /100
+(5) Exercise 4: C File IO with the standard library (notes): Take some time to read the man pages of functions fopen(3), fgets(3), fprintf(3), fseek(3), and fclose(3) and, again,write a few sentences in your own words describing each one of them in your notes.txt file.
+	Grade:  10 / 10
+	Comments: Good!
+TOTAL:  68 /100
 
 Graded by: imc004@bucknell.edu
