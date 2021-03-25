@@ -8,6 +8,9 @@
 (2) Exercise 2 - notes: Exercise 2: notes.txt has info about creat(2), open(2), read(2), write(2), and close(2) (2 points each).
 	Grade:  10 / 10
 	Comments: Good!
-TOTAL:  38 /100
+(3) Exercise 2 - head: Exercise 2: head.c program works as described and follows good coding conventions. -5 if it does not compile or has warnings. -1 for each minor error. -2 for each significant error.
+	Grade:  10 / 10
+	Comments: Good!
+TOTAL:  48 /100
 
 Graded by: imc004@bucknell.edu
