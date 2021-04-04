@@ -1,8 +1,9 @@
 #ifndef STRNODE_H_
 #define STRNODE_H_
 
+#define STRLEN 100
 struct strnode {
-    char str[101];
+    char str[STRLEN+1];
     int length;
     struct strnode *next;
 };
