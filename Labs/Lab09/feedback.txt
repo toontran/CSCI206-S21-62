@@ -1,0 +1,19 @@
+(1) ex1: Exercise 1: ex1.c works as expected with bigint.
+	Grade:   0 / 10
+	Comments: Automated check failed.
+(2) ex2: Exercise 2: ex2.c works as expected with bigint
+	Grade:   0 / 30
+	Comments: Missing files, does not compile
+
+(3) ex3: Exercise 3: ex3.c works as expected with bigint
+	Grade:   0 / 30
+	Comments: Automated check failed.
+(4) ex4: Exercise 4: ex4.c works as expected with bigint
+	Grade:   0 / 30
+	Comments: Automated check failed.
+(5) ec: Exercise 5: [extra credit] ec.c works as expected with bigint (up to 20 points extra)
+	Grade:   0 /  0
+	Comments: Good!
+TOTAL:   0 /100
+
+Graded by: imc004@bucknell.edu
