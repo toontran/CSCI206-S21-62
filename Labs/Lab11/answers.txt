@@ -1,0 +1,26 @@
+Exercise 1:
+1. What gcc flag is needed to generate debug information in your compiled program?
+-g
+
+2. How do you set a breakpoint?
+b [line]
+
+3. How do you execute the next line of C code in the program after stopping at a breakpoint?
+next
+
+4. If the next line of code is a function call, you'll execute the whole function call at once if you use your answer to #3. (If not, consider a different command for #3!) How do you tell GDB that you want to debug the code inside the function instead? (If you changed your answer to #3, then that answer is most likely now applicable here.)
+step
+
+5. How do you resume the program after stopping at a breakpoint?
+c
+
+6. How can you see the value of a variable (or even an expression like 1+2) in gdb?
+set variable [variable]=[value]
+
+7. How do you print a list of all variables and their values in the current function?
+info locals
+
+8. How do you print a trace of how your program got to where it is?
+where
+
+Exercise 2: The problem was that the second variable could be NULL, so accessing NULL address will cause Segmentation Fault. The solution handles the NULL value and fixes the problem.
