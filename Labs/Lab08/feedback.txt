@@ -1,0 +1,18 @@
+(1) Prelab1:  strnode.h has a working definition of struct strnode with include guard.
+	Grade:  10 / 10
+	Comments: Good!
+(2) Prelab2: strnode.c has a correct strnode_create that uses malloc and valid copy function; -3 if it does not set length, str, or next.
+	Grade:  15 / 15
+	Comments: Good!
+(3) Exercise 3: snode.h / .c created and node_test.c runs with the same output as before.
+	Grade:  10 / 10
+	Comments: Good!
+(4) Exercise 4: No memory leaks in node_test.
+	Grade:  10 / 10
+	Comments: Good!
+(5) Exercise 5: stack.h defined correctly (5 points), stack.c contained correct list function implementation for create, empty, destroy, push, and pop (5 points each). [30 points] pcalc runs correctly (15 points) without memory leaks (10 points) and is built with a proper makefile (5 points)
+	Grade:  55 / 55
+	Comments: Good!
+TOTAL: 100 /100
+
+Graded by: imc004@bucknell.edu

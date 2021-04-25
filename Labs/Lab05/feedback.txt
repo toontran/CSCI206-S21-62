@@ -1,0 +1,18 @@
+(1) Exercise 1: Creating a memory map: [2 points each, 20 total] In notes.txt, 10 values (7 addresses and 3 sizes) should show.
+	Grade:  20 / 20
+	Comments: Good!
+(2) Exercise 2: Making system calls from assembly: [2 point each, 10 total] In notes.txt, the 5 syscalls are provided with the correct details to run using functionality from RARS.
+	Grade:  10 / 10
+	Comments: Good!
+(3) Exercise 3: searcharrays: [20 points] searcharray.s was modified to prompt the user for the value to search for and stop if the value is not found and print value not found.
+	Grade:  20 / 20
+	Comments: Good!
+(4) ex4: [20 points] Exercise 4: sumarray.s completed, correctly detects the length of the array and computes the sum (including if it is zero-length) using the appropriate array access method.
+	Grade:  20 / 20
+	Comments: Good!
+(5) ex5: [30 points] Exercise 5: sumsquares.s completed and runs; output matches the C version (minor formatting variations are acceptable).
+	Grade:  30 / 30
+	Comments: Good!
+TOTAL: 100 /100
+
+Graded by: imc004@bucknell.edu

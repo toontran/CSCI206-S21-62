@@ -1,0 +1,13 @@
+(0) prelab - zybook: zyBook activities >80% complete.
+	Grade:   7 / 10
+	Comments: ~65% complete
+
+(1) prelab - exit: successfully modified exit.s to return 42.
+	Grade:   5 /  5
+	Comments: Good!
+(2) prelab - primesc: primes C created with correct is_prime function [5 points]. Benchmark results from riscv machine for 10,020 primes added to primes.c as a comment [5 points].
+	Grade:  10 / 10
+	Comments: Good!
+TOTAL:  22 /100
+
+Graded by: imc004@bucknell.edu

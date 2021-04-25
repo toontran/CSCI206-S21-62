@@ -1,0 +1,12 @@
+(0) prelab: Leaf procedure implemented in prelab.s. Function returns the proper value. The static variable C is properly defined in the data segment. ra is noted for the two calls to my_func in a comment. collatz.c is completed correctly using a recursive function (find_length) and a leaf function (collatz). C Coding conventions are followed (including adding good comments and a makefile).
+	Grade:  25 / 25
+	Comments: Good!
+(1) Searching through ASCII: (10 points) for documenting register assignments; (10 points) for commenting code; (15 points) for correct functionality.
+	Grade:  35 / 35
+	Comments: Good!
+(2) Collatz in assembly: (10 points) for documenting register assignments; (10 points) for commenting code; (10 points) for correct stack frames in all procedures; (10 points) for correct functionality.
+	Grade:  40 / 40
+	Comments: Good!
+TOTAL: 100 /100
+
+Graded by: imc004@bucknell.edu
