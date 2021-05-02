@@ -1,0 +1,37 @@
+Speedup analysis
+
+- Results:
+Regular selection sort
+Array size	2^14	2^16	2^18
+Elapsed time	0.231	3.644	58.207
+User time	0.229	3.64	58.208
+System time	0	0.002	0
+			
+Parallel selection sort (16 threads)			
+Array size	2^14	2^16	2^18
+Elapsed time	0.004	0.026	0.316
+User time	0.036	0.377	4.952
+System time	0	0.003	0.002
+			
+Parallel selection sort (64 threads)			
+Array size	2^14	2^16	2^18
+Elapsed time	0.004	0.012	0.102
+User time	0.007	0.081	1.22
+System time	0.003	0.002	0.003
+
+- Discussion: 
+
+We saw sharp decrease in elapsed time from regular to 
+parallel selection sort (16 threads): Elapsed time is 57, 140 and 184 
+times faster for increasing array size; user time is 6, 9, 11 times faster;
+and system time is slightly slower for parallel 16 threads sort but not 
+noticeable.
+
+The decrease is less steep from parallel 16 threads to parallel 64 threads, 
+but the speedup is still noticeable: Elapsed time has no increase, 2 times
+and 3 times faster; user time is 0.2, 4 and 4 times faster; and
+system time is slight slower.
+
+To conclude, parallel sort is much faster, but with less speed increment
+as we add to many threads. A pattern where system time increase when we 
+use more threads is also seen.
