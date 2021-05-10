@@ -1,0 +1,24 @@
+Tung Tran
+12:50pm section
+5/10
+
+(3.1) What do you observe when the block size is increased from 8 to 64 for a 8K direct-mapped cache? What principle of cache operation is responsible for this effect?
+The miss rate increases from 0.056 to 0.112. The number of indices reduces when we increasing the block size so there may be more miss. 
+
+(3.2) What do you observe when you double the size of the direct-mapped cache (from 8K to 16K) while keeping the block size at 8? Discuss these results relative to your results from question 1. Is a bigger cache necessarily better?
+Miss rates reduced slightly. Bigger cache help reduce miss.
+
+(3.3) What is the performance of a direct-mapped cache with sizes 32K, 64K, 128K, 256K, and 512K using a block size of 32? Is there a significant impact on the miss rate?
+The miss rate is reduced a bit only.
+
+(3.4) What is the effect of setting 2-way and 4-way set associativity for an 8K cache with a block size of 8? Is this what you expected? Explain your findings.
+There was no difference, which suggests the data occupies the same cache lines.
+
+(3.5) What is the effect of setting 2-way and 4-way set associativity for a 128K cache with a block size of 8? Compare them to previous results and explain your findings.
+Same results as above, which suggests the data occupies the same cache lines.
+
+
+(4) Your final challenge is to select a cache design that provides a good balance between low miss rate and small size on the blocked cache trace above. In your answers file create a new section for Exercise 3.  Be sure to document your analysis and provide several experiments to support your conclusion using the blocked trace. Clearly demonstrate the effect of each cache parameter. Your goal is to demonstrate that blocking allows us to use a smaller cache to achieve similar performance as the naive algorithm. In your answers.txt file write a few paragraphs summarizing your experiments, results, and conclusions.
+
+Varying block size and associativity with same cache size, the block performance is better compared to the naive algo. I also tested for 3 different values of cache size, all resulting in block performance higher than naive performance.
+
