@@ -1,0 +1,16 @@
+4
+Lemonades
+Peanut Butter Patties
+Samoas
+Thin Mint
+5
+Alice
+Bastian
+Catlin
+Diego
+Eva
+1 0 0 1
+1 1 0 1
+1 0 0 0
+1 1 1 1
+1 1 0 0

@@ -1,0 +1,7 @@
+find_item_turn, "turn " + str(current_yaw_delta)
+find_item_move, "move " + str(1.0 - abs(current_yaw_delta))
+stop_turn, "turn 0"
+stop_move, "move 0"
+cook_rabbit, "craft cooked_rabbit"
+move_forward, "move 1"
+swap_item_first, "swapInventoryItems 0 " + str(curr_slot)

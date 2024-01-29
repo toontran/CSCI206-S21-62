@@ -1,0 +1,29 @@
+﻿• Is the fast priority queue faster for both enqueue and dequeue? 
+
+No, because enqueue is O(1) and dequeue is O( min_priority+1 ) for fast priority queue; and O(n) worst case for enqueue and O(1) for dequeue for vanilla priority queue  
+FPQ (Fast Priority Queue): Enqueue: 0.037; Dequeue: 0.036
+VPQ (Vanilla Priority Queue): Enqueue: 2.636; Dequeue: 0.005 
+
+• If you knew most items have the same priority, which implementation of a priority queue should you choose? 
+
+Both is fine. Since most items have the same priority:
+- Fast priority queue waste space on other priorities
+- VPQ enqueues slower than FPQ
+FPQ: Enqueue: 0.24
+VPQ: Enqueue: 2.99
+
+• What if you knew the enqueue and dequeue operations would be interleaved, that is, the enqueue and dequeue operations are separated evenly, and the items to be added to the queue are evenly distributed among different priorities?
+
+FPQ is better since:
+- Space is not that wasted (Assume evenly distributed priorities)
+- FPQ is much faster
+FPQ: 0.064
+VPQ: 0.715
+ 
+• With the same interleave condition as above, what if all the enqueue operations would happen before any dequeue operations? 
+
+FPQ is still better since:
+- Space is not that wasted (Assume evenly distributed priorities)
+- FPQ is much faster
+FPQ: 0.036
+VPQ: 2.46

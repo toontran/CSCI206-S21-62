@@ -1,0 +1,14 @@
+test3.txt q
+done
+test3.txt w
+done
+test3.txt e
+done
+test3.txt qw
+done
+test3.txt qe
+done
+test3.txt we
+done
+test3.txt qwe
+done

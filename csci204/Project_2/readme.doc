@@ -1,0 +1,13 @@
+﻿How to play the game:
+- Move at least 10 steps to start the first task
+- Collect items
+- Stand on the correct broken part to fix
+- Fix all broken parts to win the game
+- Get antigravity matter to open a portal and go straight home! (only 10% spawn rate though)
+
+Describe Functionality:
+- Room: Has a 2D list to store locations of objects. 
+- Rover, Portal, Component, Part, Antigravity_Matter and Worm_Hole all inherit base Object, containing following attributes: name, location, and can be converted to its picture file name using str method
+- Task: Automatically randomize task upon broken object input. Can be printed out using str method.
+
+

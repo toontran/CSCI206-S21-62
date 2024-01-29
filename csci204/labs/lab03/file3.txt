@@ -1,0 +1,3 @@
+This is a greeting message.
+We'll see how the diff command works with these files.
+Hello world how are you!

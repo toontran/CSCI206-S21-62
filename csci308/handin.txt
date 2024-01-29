@@ -1,0 +1,67 @@
+Problem 2: a `pwd` Prins the Working Directory, which is the root "/home/tst008/csci308" for me.
+
+Problem 3: 
+part 1: student
+part 2: date modified 
+
+Problem 5: /home/tst008/csci308
+
+Problem 6:
+part 1: cp handin.txt handin2.txt 
+part 2: cp csci308/handin.txt yourmoney.txt
+part 3: cp csci308/handin.txt .
+part 4: cp handin2.txt ~
+part 5: cp handin.txt ..
+
+Problem 7:
+part 1: rm handin2.txt
+part 2: rm -rf mahboiz
+
+Problem 8:
+part 1: mv mah.txt man.txt
+part 2: mv pickle.txt ../rick.txt
+
+Problem 9:
+part 1:   
+  526  ls ~
+  527  cp csci308/handin.txt ..
+  528  cp handin.txt ..
+  529  rm handin2.txt 
+  530  history
+part 2: !c
+
+Problem 10:
+part 1: rwx--x--x
+part 2: rw-------
+part 3: rwx--x--x
+part 4: -wxrwx--x
+
+Problem 11:
+part 1: chmod u-rw filename; chmod g+r; chmod o+w
+part 2: no
+part 3: yes
+
+Problem 12:
+There are 5 differences
+1c1 -> changed to different line
+3a6 -> line 6,7 are added after line 3 in example1.txt
+9c13 -> changed to diff line
+41c46,48 -> changed to diff line
+48c5 -> changed to diff line
+
+Problem 13:
+diff example1.txt example2.txt > diffs 
+ls >> diffs
+
+Problem 14: cat example1.txt example2.txt > more.txt
+
+Problem 15: 
+part 1: alias ppp='a2ps'
+part 2: rm -i
+meaning prompt before every removal
+part 3: /usr/lib64/ccache/gcc
+
+Problem 16:
+tar -cjvf cheems.tbz burger
+
+ 

@@ -1,0 +1,39 @@
+Tung Tran lab 01
+Problem 1 answers: To remind yourself where you currently are.
+Problem 2 answers: commandname cd WesternForest
+Problem 3 answers: You go back home!
+Problem 4 answers: a.commandname less HurryingStudent
+b.You speak to a hurrying student. The student runs into 
+you and falls to the ground. The student quickly gets 
+up and apologizes to you, asking if you are okay. You 
+are sturdier than you look and you're undamaged. I'm so 
+sorry, I was in such a hurry that I didn't see you 
+there... Say, I haven't seen you here before. You're 
+new here aren't-cha?" the student winks at you, "Don't 
+worry, there's tons of newbies around today, why don't 
+you try checking out one of the free intro lessons? I'd 
+show you where to go, but I gotta run to class. Just 
+head into the Lessons hall and someone should help you 
+out. See you around." The student runs past you. You 
+notice that the student is pretty cute, and probably 
+around your age. Unfortunately, the student disappears 
+around a corner before you can ask for a name. 
+Problem 5 answers: a.Spell "mv"
+b.it moves things in the world
+Problem 6 answers: commandname PracticeDummy1
+commandname PracticeDummy2
+Problem 7 answers: commandname ls Box
+Problem 8 answers: commandname mv Boulder SmallHole
+commandname cd Tunnel
+Problem 9 answers: A list with its last item popped out
+Problem 10 answers: append takes the parameters in as elements of the list, while extend takes lists in as the parameters and merge their elements with the original list
+Problem 11 answers: TypeError: find() takes at least 1 argument (0 given)
+Problem 12 answers: isalpha checks whether the string has only characters in the alphabet; and isdigit checks whether the string has only characters that are digit
+Problem 13 answers: if del is not specified, there's nothing deleted; and if specified, del will delete that variable
+Problem 14 answers: keys
+Problem 15 answers: values
+Problem 16 answers: No
+Problem 17 answers: Row
+Problem 18 answers: Rows
+
+Password: IHTFP
