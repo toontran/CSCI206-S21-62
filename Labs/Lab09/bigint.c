@@ -214,7 +214,7 @@ void bigint_fact(
   struct bigint* temp = bigint_init("", result->N);
   struct bigint* temp2 = bigint_init("1", result->N);
   struct bigint* temp3 = bigint_init("", result->N);
-  char a_str[result->N*2];
+//   char a_str[result->N*2];
   
   strcpy(result->digit, number_one->digit); // result = 1
     

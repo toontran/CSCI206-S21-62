@@ -13,3 +13,4 @@
 # reignore these
 *.o
 a.out
+.ipynb_checkpoints
